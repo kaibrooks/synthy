@@ -42,4 +42,6 @@ by the pitch oscillator mixing stage.  By restricting the scope to a functional 
 for system gain and output filtering, a fun and functional instrument could be created that uses very low power. As an 
 added intrigue, the reference oscillator LO against which the FM created by the antenna control is heterodyned could also 
 be amplitude modulated to carry an input signal, turning the Theremin design into an antenna controlled LFO mixer capable 
-of introducing new and interesting beat frequencies into an existing signal. 
+of introducing new and interesting beat frequencies into an existing signal. This would be useful to 
+musicians, and could be used while performing live, or composing. The sensor would be the Theremin,
+the controller will be a combination of the ATMega328p and the filter, and the output will be some small amplifier.

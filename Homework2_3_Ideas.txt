@@ -4,3 +4,18 @@ This project would take some audio input, such as guitar or voice and convert th
 
 Kai's Bad Idea:
 This project would be a sound box consisting of a Markov generator that synthesizes various 'songs' using statistical modeling. The device would be pre-trained with various genres from top-10s of different genres and brands (about 10,000 in total), and generates new songs based off such statistical data. It would output MIDI and include a rudimentary onboard synthesizer to generate sound output. Additionally, it includes a speech synthesizer (also trained from a Markov model) to generate lyrics for the songs. The user will select which genre they want, and a few output options, such as filtering. MIDI output also gives the option to hook this device to a computer or other MIDI device to output the song individual elements, such as instruments. The input from the user will be a digital selector switch of >=10 states. The microcontroller will be an ATMega328p, and the output will be modulated with standard RLC filtering. The output is actuated by a voltage controlled oscillator, which also synthesizes the output.
+
+
+Jeff's idea:
+
+For the ECE 411 Practicum project, I believe it would be educational and fun to build a pitch-only low-power portable 
+Theremin with a more conventional volume control to render the full device more compact and simple.  Ideally it could 
+run on a 9V power supply and no more than 100mA and have enough drive power for headphones. The basics of pitch 
+Theremin design are two close oscillators heterodyned into an RF mixer, with one oscillator frequency controlled by a
+variable field capacitance linked to an antenna and nearby hand movement; in a traditional Theremin a similar volume 
+antenna drives a voltage controlled amplifier controlling the overall system gain on the difference frequency generated 
+by the pitch oscillator mixing stage.  By restricting the scope to a functional pitch circuit and using microcontroller for system 
+ain and output filtering, a fun and functional instrument could be created that uses very low power. As an added intrigue, the 
+eference oscillator LO against which the FM created by the antenna control is heterodyned could also be amplitude 
+modulated to carry an input signal, turning the Theremin design into an antenna controlled LFO mixer capable of introducing 
+ew and interesting beat frequencies into an existing signal. 

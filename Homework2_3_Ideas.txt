@@ -14,8 +14,8 @@ run on a 9V power supply and no more than 100mA and have enough drive power for 
 Theremin design are two close oscillators heterodyned into an RF mixer, with one oscillator frequency controlled by a
 variable field capacitance linked to an antenna and nearby hand movement; in a traditional Theremin a similar volume 
 antenna drives a voltage controlled amplifier controlling the overall system gain on the difference frequency generated 
-by the pitch oscillator mixing stage.  By restricting the scope to a functional pitch circuit and using microcontroller for system 
-ain and output filtering, a fun and functional instrument could be created that uses very low power. As an added intrigue, the 
-eference oscillator LO against which the FM created by the antenna control is heterodyned could also be amplitude 
-modulated to carry an input signal, turning the Theremin design into an antenna controlled LFO mixer capable of introducing 
-ew and interesting beat frequencies into an existing signal. 
+by the pitch oscillator mixing stage.  By restricting the scope to a functional pitch circuit and using microcontroller 
+for system gain and output filtering, a fun and functional instrument could be created that uses very low power. As an 
+added intrigue, the reference oscillator LO against which the FM created by the antenna control is heterodyned could also 
+be amplitude modulated to carry an input signal, turning the Theremin design into an antenna controlled LFO mixer capable 
+of introducing new and interesting beat frequencies into an existing signal. 

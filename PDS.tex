@@ -1,5 +1,5 @@
-% ECE 317
-% Brooks, Budworth, Forsman
+% ECE 411
+% Almatouq, Brooks, Forsman, Roman
 % Fall 2019
 
 % Document settings ------------------------------------------------
@@ -7,7 +7,7 @@
 
 % Commands ------------------------------------------------
 \newcommand{\authorname}{Almatouq, Brooks, Forsman, Roman}
-\newcommand{\classnumber}{ECE 411}
+\newcommand{\classnumber}{ECE 411 - Group 18}
 \newcommand{\projectname}{Project Theremizer}
 
 \newcommand{\figOverlay}{\put(34,10){\color{black!50} \figWatermark}} % Figure overlay settings
@@ -109,7 +109,7 @@
 	\begin{center}
 		\vspace*{1cm}
 
-		\huge\textsc{\projectname}
+		\huge\textsc{\projectname \\ Product Design Summary}
 
 		\vspace{0.5cm}
 		\small\textsc{\classnumber}
@@ -143,7 +143,7 @@
 \pagenumbering{arabic}
 
 	\section{Executive Summary}
-	Theremizer is a sound control and manipulation device. It produces an audio output that sounds otherworldly and has been used in famous songs like the theme from Star Trek and the Beach Boys' "Good Vibrations". The musician controls Theremizer by moving their hand in the space around from an antenna to change the pitch. Theremizer also accepts an external audio input, and if provided, will modulate this external audio input using amplitude modulation to create wild sounds and effects. Theremizer's output is then run through a classic Voltage Controlled Filter, the AS 3220. This shapes the sound further using resonance and cutoff adjustments. Theremizer is primarily for modular synthesizer musicians, who are always looking for unique, interesting sounds and modular music boxes for live performances.
+	Theremizer is a sound control and manipulation device. It's a small box, roughly the size of half a carton of eggs, with a 3-foot antenna protruding out the top, and various controls in front. It produces an audio output that sounds mysterious, ethereal, and otherworldly. Similar sounds have been used in famous and recognizable songs such as the theme from the Star Trek original series and the Beach Boys' "Good Vibrations". The user controls Theremizer by moving their hand in the physical space around its antenna, though never needing to touch the device directly. Theremizer interprets these motions and it uses it to change the pitch it produces. Theremizer also accepts an external audio input, and if provided, will modulate this external audio input using amplitude modulation to create wild sounds and effects. Theremizer's output is then run through a classic Voltage Controlled Filter, the AS 3220. This shapes the sound further using resonance and cutoff adjustments, for a distinctive, adjustable sound. Theremizer is primarily for modular synthesizer musicians, who are always looking for unique, interesting sounds and modular music boxes for live performances.
 	\section{Market Analysis}
 	\subsection{Target Market}
 	Theremizer will be initially marketed to analog synthesizer enthusiasts, as they represent a large market of customers that are always looking for interesting audio sources and control methods. 
@@ -157,21 +157,21 @@
 	
 	Note: Musicians, especially touring or performing musicians may be interested in multiple devices chained together or in various configurations.
 	\subsection{Competition}
-	There currently is nothing on the market that does what Theremizer can do. Most theremins are disqualifyingly expensive and tonally limited. Cheaper devices don't have musical filtering on the output, or any modulation possibilities within the device. Both of these options limit the potential market for competitive devices. 
+	There currently is nothing on the market that produces the same audio Theremizer can, at the competitive price point Theremizer has. Most theremins are disqualifyingly expensive and tonally limited. Cheaper devices don't have musical filtering on the output, or any modulation possibilities within the device. Both of these options limit the potential market for competitive devices. 
 	
 	\section{Requirements}
 	\subsection{Functionality}
-	An antenna must modulate the frequency of an oscillator which is heterodyned with another to produce an audio output of at least one octave. The device must be capable of feeding it's output to other audio processing blocks, or a separate audio amplifier. The device must have an enclosure that is self-stable. The device should accept and modulate an external signal, then mix against the theremin output.
-	\subsection*{Performance}
+	An antenna must modulate the frequency of an oscillator which is heterodyned with another to produce an audio output of at least one octave. The device must be capable of feeding its output to other audio processing blocks, or a separate audio amplifier. The device must have an enclosure that is self-stable. The device should accept and modulate an external signal, then mix against the theremin output.
+	\subsection{Performance}
 		To make the device useful for musicians, it will have a user controlled filter with a minimum cutoff of at least \SI{5}{\kilo\hertz}. It will have a user controlled output up to at least \SI{1}{\volt} amplitude. The output and input impedance will be compatible with industry line-level standards and will have an impedance of less than \SI{600}{\ohm} and greater than \SI{10}{\kilo\ohm} respectively. 
-	\subsection*{Economic}
+	\subsection{Economic}
 	The device must be affordable to produce, with a total parts cost less than \$60. All parts must be available for volume purchase, in active production, or easily substitutable by a component in current production. 
-\section*{System Architecture}
+\section{System Architecture}
 	\begin{figure}[H]
 \includegraphics[width = \textwidth]{Theremizer_HighLevel_BD.png}
 	\end{figure}
 
-\section*{Design Specification}
+\section{Design Specification}
 \begin{itemize}
 	\item Sensors will be the antenna in the theremin circuit, and the ADC's on the processor. Antenna will input varying capacitance based on hand distance to theremin, and ADC's will measure voltage to vary PWM from the ATMega328p to control filter cutoff, resonance and gain.
 	\item Actuators will be the mixer/modulator used in the theremin circuit (currently MC1496) which will output the modulated signal, the gain stage of the filter (AS3320), and the PWM output of the ATMega328p.

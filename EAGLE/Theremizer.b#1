@@ -3216,10 +3216,6 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 </signal>
 <signal name="SIGNAL_INPUT">
 <contactref element="R7" pad="1"/>
-<contactref element="C27" pad="1"/>
-<contactref element="MX1" pad="2"/>
-<wire x1="-56.4" y1="-207.54" x2="-33.4" y2="-13.8" width="0" layer="19" extent="1-1"/>
-<wire x1="-61.95" y1="-211.6" x2="-56.4" y2="-207.54" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$6">
 <contactref element="R7" pad="2"/>
@@ -3448,6 +3444,11 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <contactref element="C18" pad="2"/>
 <contactref element="MX1" pad="3"/>
 <wire x1="-53.86" y1="-207.54" x2="-31.85" y2="-106.2" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$39">
+<contactref element="C27" pad="1"/>
+<contactref element="MX1" pad="2"/>
+<wire x1="-56.4" y1="-207.54" x2="-61.95" y2="-211.6" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>

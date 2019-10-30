@@ -20994,14 +20994,11 @@ Attribution ShareAlike (CC BY-SA)</text>
 <wire x1="166.37" y1="115.57" x2="179.07" y2="115.57" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="SIGNAL_INPUT" class="0">
+<net name="N$39" class="0">
 <segment>
 <pinref part="C27" gate="G$1" pin="1"/>
 <pinref part="MX1" gate="G$1" pin="IF"/>
 <wire x1="201.93" y1="115.57" x2="199.39" y2="115.57" width="0.1524" layer="91"/>
-<wire x1="201.93" y1="115.57" x2="217.17" y2="115.57" width="0.1524" layer="91"/>
-<junction x="201.93" y="115.57"/>
-<label x="215.9" y="115.57" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>

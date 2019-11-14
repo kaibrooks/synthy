@@ -2577,12 +2577,12 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <contactref element="U3" pad="3"/>
 <contactref element="U3" pad="16"/>
 <contactref element="U3" pad="9"/>
-<contactref element="C10" pad="1"/>
 <contactref element="C9" pad="1"/>
 <contactref element="IC1" pad="3"/>
 <contactref element="C12" pad="2"/>
 <contactref element="R21" pad="2"/>
 <contactref element="C13" pad="2"/>
+<contactref element="C10" pad="1"/>
 <wire x1="90" y1="39" x2="99" y2="39" width="0" layer="19" extent="1-1"/>
 <wire x1="99" y1="30" x2="99" y2="39" width="0" layer="19" extent="1-1"/>
 <wire x1="95.24" y1="28.27" x2="99" y2="30" width="0" layer="19" extent="1-1"/>

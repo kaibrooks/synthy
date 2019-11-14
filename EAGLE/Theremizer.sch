@@ -7,7 +7,7 @@
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="2" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -22034,7 +22034,7 @@ NS Package M08A</description>
 <part name="P+3" library="supply1" deviceset="+5V" device=""/>
 <part name="GND2" library="supply1" deviceset="GND" device=""/>
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
-<part name="C2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805K" package3d_urn="urn:adsk.eagle:package:23681/2" value="100n">
+<part name="C2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100n">
 <spice>
 <pinmapping spiceprefix="C">
 <pinmap gate="G$1" pin="1" pinorder="1"/>
@@ -22045,7 +22045,7 @@ NS Package M08A</description>
 <attribute name="MPN" value="CL21B104KBCNNNC"/>
 </part>
 <part name="GND7" library="supply1" deviceset="GND" device=""/>
-<part name="C1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805K" package3d_urn="urn:adsk.eagle:package:23681/2" value="10u">
+<part name="C1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="10u">
 <spice>
 <pinmapping spiceprefix="C">
 <pinmap gate="G$1" pin="1" pinorder="1"/>
@@ -22055,7 +22055,7 @@ NS Package M08A</description>
 <attribute name="MFR" value="Samsung"/>
 <attribute name="MPN" value="CL21A106KOQNNNG"/>
 </part>
-<part name="C3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805K" package3d_urn="urn:adsk.eagle:package:23681/2" value="10u">
+<part name="C3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="10u">
 <spice>
 <pinmapping spiceprefix="C">
 <pinmap gate="G$1" pin="1" pinorder="1"/>
@@ -22084,7 +22084,7 @@ NS Package M08A</description>
 <attribute name="MPN" value="NCP1117ST50T3G"/>
 </part>
 <part name="P+8" library="supply1" deviceset="+5V" device=""/>
-<part name="C6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805K" package3d_urn="urn:adsk.eagle:package:23681/2" value="100n">
+<part name="C6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100n">
 <spice>
 <pinmapping spiceprefix="C">
 <pinmap gate="G$1" pin="1" pinorder="1"/>
@@ -22128,7 +22128,7 @@ NS Package M08A</description>
 <part name="H3" library="SparkFun-Hardware" library_urn="urn:adsk.eagle:library:519" deviceset="STAND-OFF" device="" package3d_urn="urn:adsk.eagle:package:38630/1"/>
 <part name="H4" library="SparkFun-Hardware" library_urn="urn:adsk.eagle:library:519" deviceset="STAND-OFF" device="" package3d_urn="urn:adsk.eagle:package:38630/1"/>
 <part name="H1" library="SparkFun-Hardware" library_urn="urn:adsk.eagle:library:519" deviceset="STAND-OFF" device="" package3d_urn="urn:adsk.eagle:package:38630/1"/>
-<part name="C4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805K" package3d_urn="urn:adsk.eagle:package:23681/2" value="100n">
+<part name="C4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100n">
 <spice>
 <pinmapping spiceprefix="C">
 <pinmap gate="G$1" pin="1" pinorder="1"/>
@@ -22139,7 +22139,7 @@ NS Package M08A</description>
 <attribute name="MPN" value="CL21B104KBCNNNC"/>
 </part>
 <part name="GND6" library="supply1" deviceset="GND" device=""/>
-<part name="C5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805K" package3d_urn="urn:adsk.eagle:package:23681/2" value="100n">
+<part name="C5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100n">
 <spice>
 <pinmapping spiceprefix="C">
 <pinmap gate="G$1" pin="1" pinorder="1"/>
@@ -22162,7 +22162,7 @@ NS Package M08A</description>
 <attribute name="MFR" value="ECS"/>
 <attribute name="MPN" value="ECS-160-18-5PX-TR"/>
 </part>
-<part name="C7" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805K" package3d_urn="urn:adsk.eagle:package:23681/2" value="30p">
+<part name="C7" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="30p">
 <spice>
 <pinmapping spiceprefix="C">
 <pinmap gate="G$1" pin="1" pinorder="1"/>
@@ -22173,7 +22173,7 @@ NS Package M08A</description>
 <attribute name="MFR" value="Samsung"/>
 <attribute name="MPN" value="CL21C180JBANNNC"/>
 </part>
-<part name="C8" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805K" package3d_urn="urn:adsk.eagle:package:23681/2" value="30p">
+<part name="C8" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="30p">
 <spice>
 <pinmapping spiceprefix="C">
 <pinmap gate="G$1" pin="1" pinorder="1"/>
@@ -22260,7 +22260,7 @@ NS Package M08A</description>
 <part name="R7" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="91K"/>
 <part name="R9" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="100K"/>
 <part name="R10" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="91K"/>
-<part name="R11" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="100K"/>
+<part name="R11" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="100K"/>
 <part name="R12" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="220K"/>
 <part name="R13" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="220K"/>
 <part name="R14" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="220K"/>
@@ -22271,10 +22271,10 @@ NS Package M08A</description>
 <part name="R19" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="1.5K"/>
 <part name="R21" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="1.8K"/>
 <part name="R22" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="100K"/>
-<part name="C9" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="300pF"/>
-<part name="C10" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="300pF"/>
-<part name="C12" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="300pF"/>
-<part name="C13" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="300pF"/>
+<part name="C9" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="300p"/>
+<part name="C10" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="300p"/>
+<part name="C12" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="300p"/>
+<part name="C13" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="300p"/>
 <part name="C14" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="1uF"/>
 <part name="R23" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="51K"/>
 <part name="GND13" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -22289,13 +22289,13 @@ NS Package M08A</description>
 <part name="C17" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="470p"/>
 <part name="C18" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100n"/>
 <part name="C19" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="10uF"/>
-<part name="C20" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100nF"/>
-<part name="C21" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="300pF"/>
+<part name="C20" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100n"/>
+<part name="C21" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="300p"/>
 <part name="C23" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="2.2nF"/>
 <part name="C24" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="470pF"/>
 <part name="C25" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100n"/>
 <part name="L1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="L-US" device="6000-XXX-RC" package3d_urn="urn:adsk.eagle:package:23538/1" value="1m"/>
-<part name="L2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="L-US" device="6000-XXX-RC" package3d_urn="urn:adsk.eagle:package:23538/1" value="10mH"/>
+<part name="L2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="L-US" device="6000-XXX-RC" package3d_urn="urn:adsk.eagle:package:23538/1" value="10m"/>
 <part name="L3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="L-US" device="6000-XXX-RC" package3d_urn="urn:adsk.eagle:package:23538/1" value="1m"/>
 <part name="R24" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="100"/>
 <part name="R28" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="47"/>
@@ -22337,8 +22337,8 @@ NS Package M08A</description>
 <part name="R27" library="pot" library_urn="urn:adsk.eagle:library:331" deviceset="TRIM_US-" device="PT10" package3d_urn="urn:adsk.eagle:package:22715/1" value="10k"/>
 <part name="R34" library="pot" library_urn="urn:adsk.eagle:library:331" deviceset="TRIM_US-" device="PT10" package3d_urn="urn:adsk.eagle:package:22715/1" value="10k"/>
 <part name="R35" library="pot" library_urn="urn:adsk.eagle:library:331" deviceset="TRIM_US-" device="PT10" package3d_urn="urn:adsk.eagle:package:22715/1" value="10k"/>
-<part name="C33" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-TRIMM" device="808" package3d_urn="urn:adsk.eagle:package:23766/1"/>
-<part name="C34" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-TRIMM" device="808" package3d_urn="urn:adsk.eagle:package:23766/1"/>
+<part name="C33" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-TRIMM" device="808" package3d_urn="urn:adsk.eagle:package:23766/1" value="8-100p"/>
+<part name="C34" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-TRIMM" device="808" package3d_urn="urn:adsk.eagle:package:23766/1" value="8-100p"/>
 <part name="R25" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="100"/>
 <part name="R30" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="100"/>
 <part name="GND23" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -22378,7 +22378,7 @@ NS Package M08A</description>
 <part name="P+21" library="supply1" deviceset="+5V" device=""/>
 <part name="GND35" library="supply1" deviceset="GND" device=""/>
 <part name="P+22" library="supply1" deviceset="+5V" device=""/>
-<part name="C35" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805K" package3d_urn="urn:adsk.eagle:package:23681/2" value=".1u">
+<part name="C35" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value=".1u">
 <spice>
 <pinmapping spiceprefix="C">
 <pinmap gate="G$1" pin="1" pinorder="1"/>
@@ -22406,6 +22406,7 @@ NS Package M08A</description>
 <part name="GND40" library="supply1" deviceset="GND" device=""/>
 <part name="GND41" library="supply1" deviceset="GND" device=""/>
 <part name="P-1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="-15V" device=""/>
+<part name="FILTER_OUT" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="TP" device="B2,54" package3d_urn="urn:adsk.eagle:package:27948/1"/>
 </parts>
 <sheets>
 <sheet>
@@ -22455,6 +22456,7 @@ Attribution ShareAlike (CC BY-SA)</text>
 <wire x1="13.97" y1="116.84" x2="172.72" y2="116.84" width="0.1524" layer="97"/>
 <wire x1="172.72" y1="116.84" x2="172.72" y2="58.42" width="0.1524" layer="97"/>
 <wire x1="172.72" y1="58.42" x2="13.97" y2="58.42" width="0.1524" layer="97"/>
+<text x="111.76" y="92.71" size="1.778" layer="97">DAC</text>
 </plain>
 <instances>
 <instance part="J1" gate="A" x="339.09" y="105.41" smashed="yes">
@@ -23319,10 +23321,14 @@ Attribution ShareAlike (CC BY-SA)</text>
 <sheet>
 <plain>
 <wire x1="6.35" y1="193.04" x2="6.35" y2="69.85" width="0.1524" layer="97"/>
-<wire x1="6.35" y1="69.85" x2="220.98" y2="69.85" width="0.1524" layer="97"/>
-<wire x1="220.98" y1="69.85" x2="220.98" y2="193.04" width="0.1524" layer="97"/>
-<wire x1="220.98" y1="193.04" x2="6.35" y2="193.04" width="0.1524" layer="97"/>
+<wire x1="6.35" y1="69.85" x2="208.28" y2="69.85" width="0.1524" layer="97"/>
+<wire x1="208.28" y1="69.85" x2="208.28" y2="193.04" width="0.1524" layer="97"/>
+<wire x1="208.28" y1="193.04" x2="6.35" y2="193.04" width="0.1524" layer="97"/>
 <text x="55.88" y="71.12" size="1.778" layer="97">Low Pass Output Filter</text>
+<wire x1="212.09" y1="140.97" x2="212.09" y2="87.63" width="0.1524" layer="97"/>
+<wire x1="212.09" y1="87.63" x2="271.78" y2="87.63" width="0.1524" layer="97"/>
+<wire x1="271.78" y1="87.63" x2="271.78" y2="140.97" width="0.1524" layer="97"/>
+<wire x1="271.78" y1="140.97" x2="212.09" y2="140.97" width="0.1524" layer="97"/>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0" smashed="yes"/>
@@ -23475,6 +23481,10 @@ Attribution ShareAlike (CC BY-SA)</text>
 </instance>
 <instance part="GND39" gate="1" x="251.46" y="97.79" smashed="yes">
 <attribute name="VALUE" x="248.92" y="95.25" size="1.778" layer="96"/>
+</instance>
+<instance part="FILTER_OUT" gate="G$1" x="203.2" y="119.38" smashed="yes">
+<attribute name="NAME" x="201.93" y="120.65" size="1.778" layer="95"/>
+<attribute name="TP_SIGNAL_NAME" x="204.47" y="118.11" size="1.778" layer="97"/>
 </instance>
 </instances>
 <busses>
@@ -23744,8 +23754,11 @@ Attribution ShareAlike (CC BY-SA)</text>
 <pinref part="R23" gate="G$1" pin="1"/>
 <wire x1="93.98" y1="74.93" x2="93.98" y2="99.06" width="0.1524" layer="91"/>
 <pinref part="R48" gate="G$1" pin="1"/>
-<wire x1="193.04" y1="116.84" x2="215.9" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="193.04" y1="116.84" x2="203.2" y2="116.84" width="0.1524" layer="91"/>
 <junction x="193.04" y="116.84"/>
+<pinref part="FILTER_OUT" gate="G$1" pin="TP"/>
+<wire x1="203.2" y1="116.84" x2="215.9" y2="116.84" width="0.1524" layer="91"/>
+<junction x="203.2" y="116.84"/>
 </segment>
 </net>
 <net name="N$20" class="0">

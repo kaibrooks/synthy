@@ -1,20 +1,50 @@
-﻿Manufacturer Part Number,Manufacturer,Digi-Key Part Number,Customer Reference,Reference Designator,Packaging,Part Status,Quantity,Unit Price,Extended Price,Quantity Available,Mfg Std Lead Time,Description,RoHS Status,Lead Free Status,REACH Status
-PDB241-E420K-504A2,Bourns Inc.,PDB241-E420K-504A2-ND,,,Bulk,Active,4,2.38,$9.52 ,759,18 Weeks,POT 500K OHM 1/4W CARBON LOG,ROHS3 Compliant,Lead free,REACH Unaffected
-PV36W104C01B00,Bourns Inc.,490-2876-ND,,,Tube,Active,4,1.5,$6.00 ,10147,6 Weeks,TRIMMER 100K OHM 0.5W PC PIN TOP,ROHS3 Compliant,Lead free,REACH Unaffected
-PV36Y203C01B00,Bourns Inc.,490-2919-ND,,,Bulk,Active,4,1.5,$6.00 ,738,6 Weeks,TRIMMER 20K OHM 0.5W PC PIN TOP,ROHS3 Compliant,Lead free,REACH Unaffected
-RLB1314-103KL,Bourns Inc.,RLB1314-103KL-ND,,,Bag,Active,4,0.56,$2.24 ,1099,14 Weeks,FIXED IND 10MH 100MA 12 OHM TH,ROHS3 Compliant,Lead free,REACH Unaffected
-RLB0608-102KL,Bourns Inc.,RLB0608-102KL-ND,,,Bag,Active,8,0.32,$2.56 ,110821,14 Weeks,FIXED IND 1MH 100MA 11.5 OHM TH,ROHS3 Compliant,Lead free,REACH Unaffected
-RL622-101K-RC,Bourns Inc.,M9993-ND,,,Bulk,Active,4,0.95,$3.80 ,10879,18 Weeks,FIXED IND 100UH 910MA 280 MOHM,ROHS3 Compliant,Lead free,REACH Unaffected
-FG18X7R1H474KRT06,TDK Corporation,445-173276-1-ND,,,Cut Tape (CT),Active,5,0.36,$1.80 ,2039,24 Weeks,CAP CER 0.47UF 50V X7R RADIAL,ROHS3 Compliant,Lead free,REACH Unaffected
-PRG3216P-1000-D-T5,Susumu,408-1805-1-ND,,,Cut Tape (CT),Active,10,0.491,$4.91 ,1400,20 Weeks,RES SMD 100 OHM 1W 1206 WIDE,ROHS3 Compliant,Lead free,Not Available
-ERJ-PB6B4700V,Panasonic Electronic Components,P20556CT-ND,,,Cut Tape (CT),Active,25,0.2228,$5.57 ,9536,13 Weeks,RES SMD 470 OHM 0.1% 1/4W 0805,ROHS3 Compliant,Lead free,Not Available
-RK73H2ATTD47R0F,"KOA Speer Electronics, Inc.",2019-RK73H2ATTD47R0FCT-ND,,,Cut Tape (CT),Active,10,0.035,$0.35 ,21644,Not Available,RESISTOR,ROHS3 Compliant,Lead free,Not Available
-CRCW08052K20FKEAHP,Vishay Dale,541-2.20KTCT-ND,,,Cut Tape (CT),Active,5,0.26,$1.30 ,68074,16 Weeks,RES SMD 2.2K OHM 1% 1/2W 0805,ROHS3 Compliant,Lead free,Not Available
-ERJ-P06F1001V,Panasonic Electronic Components,P16058CT-ND,,,Cut Tape (CT),Active,10,0.167,$1.67 ,428211,13 Weeks,RES SMD 1K OHM 1% 1/2W 0805,ROHS3 Compliant,Lead free,REACH Unaffected
-ERJ-PB6B1002V,Panasonic Electronic Components,P20708CT-ND,,,Cut Tape (CT),Active,10,0.306,$3.06 ,74436,13 Weeks,RES SMD 10K OHM 0.1% 1/4W 0805,ROHS3 Compliant,Lead free,Not Available
-ERJ-PB6B1003V,Panasonic Electronic Components,P20822CT-ND,,,Cut Tape (CT),Active,50,0.1614,$8.07 ,10358,13 Weeks,RES SMD 100K OHM 0.1% 1/4W 0805,ROHS3 Compliant,Lead free,Not Available
-ERJ-PB6B4703V,Panasonic Electronic Components,P20898CT-ND,,,Cut Tape (CT),Active,10,0.306,$3.06 ,2294,13 Weeks,RES SMD 470K OHM 0.1% 1/4W 0805,ROHS3 Compliant,Lead free,Not Available
-C0805C222KAGECAUTO,KEMET,399-17905-1-ND,,,Cut Tape (CT),Active,20,0.196,$3.92 ,4558,18 Weeks,CAP CER 0805 2.2NF 250V C0G,ROHS3 Compliant,Lead free,REACH Unaffected
-C0805C471F1GACTU,KEMET,399-8082-6-ND,,,Digi-Reel,Active,20,0.804,$16.08 ,24495,46 Weeks,CAP CER 470PF 100V C0G/NP0 0805,ROHS3 Compliant,Lead free,REACH Unaffected
-C0805C104K3RACTU,KEMET,399-1168-1-ND,,,Cut Tape (CT),Active,40,0.137,$5.48 ,913439,54 Weeks,CAP CER 0.1UF 25V X7R 0805,ROHS3 Compliant,Lead free,REACH Unaffected
-UKL2A100KPD,Nichicon,493-14498-ND,,,Bulk,Active,20,0.398,$7.96 ,1219,19 Weeks,CAP ALUM 10UF 10% 100V RADIAL,ROHS3 Compliant,Lead free,REACH Unaffected
+﻿"Manufacturer Part Number","Manufacturer","Digi-Key Part Number","Customer Reference","Reference Designator","Packaging","Part Status","Quantity","Unit Price","Extended Price","Quantity Available","Description"
+"PV36W104C01B00","Bourns Inc.","490-2876-ND","","","Tube","Active","8","1.50000","$12.00","10118","TRIMMER 100K OHM 0.5W PC PIN TOP"
+"RLB1314-103KL","Bourns Inc.","RLB1314-103KL-ND","","","Bag","Active","4","0.56000","$2.24","1099","FIXED IND 10MH 100MA 12 OHM TH"
+"RLB0608-102KL","Bourns Inc.","RLB0608-102KL-ND","","","Bag","Active","10","0.28000","$2.80","110816","FIXED IND 1MH 100MA 11.5 OHM TH"
+"RL622-101K-RC","Bourns Inc.","M9993-ND","","","Bulk","Active","4","0.95000","$3.80","10872","FIXED IND 100UH 910MA 280 MOHM"
+"FG18X7R1H474KRT06","TDK Corporation","445-173276-1-ND","","","Cut Tape (CT)","Active","5","0.36000","$1.80","2038","CAP CER 0.47UF 50V X7R RADIAL"
+"PRG3216P-1000-D-T5","Susumu","408-1805-1-ND","","","Cut Tape (CT)","Active","10","0.49100","$4.91","1400","RES SMD 100 OHM 1W 1206 WIDE"
+"ERJ-PB6B4700V","Panasonic Electronic Components","P20556CT-ND","","","Cut Tape (CT)","Active","25","0.22280","$5.57","9416","RES SMD 470 OHM 0.1% 1/4W 0805"
+"RK73H2ATTD47R0F","KOA Speer Electronics, Inc.","2019-RK73H2ATTD47R0FCT-ND","","","Cut Tape (CT)","Active","10","0.03500","$0.35","21644","RESISTOR"
+"C0805C222KAGECAUTO","KEMET","399-17905-1-ND","","","Cut Tape (CT)","Active","20","0.19600","$3.92","4558","CAP CER 0805 2.2NF 250V C0G"
+"C0805C471F1GACTU","KEMET","399-8082-6-ND","","","Digi-Reel","Active","20","0.80400","$16.08","24430","CAP CER 470PF 100V C0G/NP0 0805"
+"C0805C104K3RACTU","KEMET","399-1168-1-ND","","","Cut Tape (CT)","Active","100","0.06460","$6.46","901244","CAP CER 0.1UF 25V X7R 0805"
+"UKL2A100KPD","Nichicon","493-14498-ND","","","Bulk","Active","20","0.39800","$7.96","1219","CAP ALUM 10UF 10% 100V RADIAL"
+"STC02SYAN","Sullins Connector Solutions","S9000-ND","","","Bulk","Active","50","0.03780","$1.89","107995","CONN JUMPER SHORTING TIN"
+"ERJ-6GEY0R00V","Panasonic Electronic Components","P0.0ACT-ND","","","Cut Tape (CT)","Active","25","0.04320","$1.08","2018211","RES SMD 0 OHM JUMPER 1/8W 0805"
+"ERJ-6ENF1501V","Panasonic Electronic Components","P1.50KCCT-ND","","","Cut Tape (CT)","Active","10","0.08400","$0.84","201776","RES SMD 1.5K OHM 1% 1/8W 0805"
+"ERJ-6ENF1801V","Panasonic Electronic Components","P1.80KCCT-ND","","","Cut Tape (CT)","Active","10","0.10000","$1.00","71065","RES SMD 1.8K OHM 1% 1/8W 0805"
+"ERJ-6ENF1003V","Panasonic Electronic Components","P100KCCT-ND","","","Cut Tape (CT)","Active","100","0.02970","$2.97","1972016","RES SMD 100K OHM 1% 1/8W 0805"
+"PMV45EN2R","Nexperia USA Inc.","1727-2307-1-ND","","","Cut Tape (CT)","Active","5","0.43000","$2.15","93520","MOSFET N-CH 30V SOT23"
+"NCP1117ST50T3G","ON Semiconductor","NCP1117ST50T3GOSCT-ND","","","Cut Tape (CT)","Active","5","0.47000","$2.35","14496","IC REG LINEAR 5V 1A SOT223"
+"UA78M09CKVURG3","Texas Instruments","296-19533-1-ND","","","Cut Tape (CT)","Active","5","0.60000","$3.00","5206","IC REG LINEAR 9V 500MA TO252-3"
+"TL072CDT","STMicroelectronics","497-2200-1-ND","","","Cut Tape (CT)","Active","10","0.36300","$3.63","2188","IC OPAMP JFET 2 CIRCUIT 8SO"
+"ATMEGA328P-AU","Microchip Technology","ATMEGA328P-AU-ND","","","Tray","Active","4","2.01000","$8.04","5830","IC MCU 8BIT 32KB FLASH 32TQFP"
+"LTC2645CMS-L8#PBF","Linear Technology/Analog Devices","LTC2645CMS-L8#PBF-ND","","","Tube","Active","4","6.17000","$24.68","270","IC DAC 8BIT V-OUT 16MSOP"
+"MBRA130LT3G","ON Semiconductor","MBRA130LT3GOSCT-ND","","","Cut Tape (CT)","Active","20","0.28000","$5.60","44706","DIODE SCHOTTKY 30V 1A SMA"
+"LTST-C171GKT","Lite-On Inc.","160-1423-1-ND","","","Cut Tape (CT)","Active","10","0.20100","$2.01","284674","LED GREEN CLEAR CHIP SMD"
+"ECS-160-18-5PX-JES-TR","ECS Inc.","XC3075CT-ND","","","Cut Tape (CT)","Active","5","0.63000","$3.15","1978","CRYSTAL 16.0000MHZ 18PF SMD"
+"C0805C300K5GAC7800","KEMET","399-17443-1-ND","","","Cut Tape (CT)","Active","10","0.21600","$2.16","3822","CAP CER 30PF 50V NP0 0805"
+"C0805C221K5GACTU","KEMET","399-8038-1-ND","","","Cut Tape (CT)","Active","10","0.10100","$1.01","54135","CAP CER 220PF 50V C0G/NP0 0805"
+"CC0805KRX7R9BB301","Yageo","311-4329-1-ND","","","Cut Tape (CT)","Active","20","0.11100","$2.22","1232","CAP CER 300PF 50V X7R 0805"
+"C0805C102K5GACTU","KEMET","399-7988-1-ND","","","Cut Tape (CT)","Active","10","0.11200","$1.12","66915","CAP CER 1000PF 50V C0G/NP0 0805"
+"C0805C473K5RACTU","KEMET","399-1166-1-ND","","","Cut Tape (CT)","Active","5","0.18000","$0.90","1276732","CAP CER 0.047UF 50V X7R 0805"
+"C0805C334K5RACAUTO","KEMET","399-6959-1-ND","","","Cut Tape (CT)","Active","5","0.23000","$1.15","16103","CAP CER 0.33UF 50V X7R 0805"
+"C0805C105K5PAC7800","KEMET","399-15436-1-ND","","","Cut Tape (CT)","Active","5","0.33000","$1.65","11415","CAP CER 1UF 50V X5R 0805"
+"C0805C106K4PACTU","KEMET","399-8012-1-ND","","","Cut Tape (CT)","Active","100","0.06630","$6.63","87000","CAP CER 10UF 16V X5R 0805"
+"C0805C474J5RACTU","KEMET","399-11174-1-ND","","","Cut Tape (CT)","Active","5","0.98000","$4.90","9232","CAP CER 0.47UF 50V X7R 0805"
+"ERJ-6ENF2202V","Panasonic Electronic Components","P22.0KCCT-ND","","","Cut Tape (CT)","Active","10","0.09400","$0.94","123574","RES SMD 22K OHM 1% 1/8W 0805"
+"ERJ-6ENF9102V","Panasonic Electronic Components","P91.0KCCT-ND","","","Cut Tape (CT)","Active","20","0.08100","$1.62","50656","RES SMD 91K OHM 1% 1/8W 0805"
+"ERJ-6ENF2203V","Panasonic Electronic Components","P220KCCT-ND","","","Cut Tape (CT)","Active","20","0.08100","$1.62","312371","RES SMD 220K OHM 1% 1/8W 0805"
+"ERJ-6ENF2743V","Panasonic Electronic Components","P274KCCT-ND","","","Cut Tape (CT)","Active","10","0.09900","$0.99","73439","RES SMD 274K OHM 1% 1/8W 0805"
+"ERJ-6ENF1004V","Panasonic Electronic Components","P1.00MCCT-ND","","","Cut Tape (CT)","Active","5","0.10000","$0.50","290186","RES SMD 1M OHM 1% 1/8W 0805"
+"ERJ-6ENF4992V","Panasonic Electronic Components","P49.9KCCT-ND","","","Cut Tape (CT)","Active","20","0.08100","$1.62","361457","RES SMD 49.9K OHM 1% 1/8W 0805"
+"P160KNP-0EC15A100K","TT Electronics/BI","987-1717-ND","","","Tray","Active","4","0.79000","$3.16","1273","POT 100K OHM 1/10W PLASTIC LOG"
+"P160KNP-0QD20B10K","TT Electronics/BI","987-1662-ND","","","Tray","Active","8","0.79000","$6.32","1279","POT 10K OHM 1/5W PLASTIC LINEAR"
+"P160KNP-0EC15A25K","TT Electronics/BI","987-1721-ND","","","Tray","Active","4","0.79000","$3.16","426","POT 25K OHM 1/10W PLASTIC LOG"
+"ERJ-6ENF2201V","Panasonic Electronic Components","P2.20KCCT-ND","","","Cut Tape (CT)","Active","10","0.08000","$0.80","238082","RES SMD 2.2K OHM 1% 1/8W 0805"
+"ERJ-6ENF1001V","Panasonic Electronic Components","P1.00KCCT-ND","","","Cut Tape (CT)","Active","30","0.08100","$2.43","1305214","RES SMD 1K OHM 1% 1/8W 0805"
+"ERJ-6ENF1002V","Panasonic Electronic Components","P10.0KCCT-ND","","","Cut Tape (CT)","Active","25","0.07700","$1.92","2280002","RES SMD 10K OHM 1% 1/8W 0805"
+"ERJ-6ENF4703V","Panasonic Electronic Components","P470KCCT-ND","","","Cut Tape (CT)","Active","10","0.08100","$0.81","128684","RES SMD 470K OHM 1% 1/8W 0805"
+"P160KNP-0EC15A500K","TT Electronics/BI","987-1722-ND","","","Tray","Active","4","0.79000","$3.16","1139","POT 500K OHM 1/10W PLASTIC LOG"

@@ -1,1 +1,17 @@
 Specifications for HTTP Get
+"Write the specification for the HTTP GET string that will be used by the vaccine
+temperature monitor and the database to communicate temperature samples. Be brief
+but unambiguous. It should be clear enough that two individuals, one working on
+the server side (writing code to parse the string and put the appropriate values
+in the database), and another working on the temperature monitor code
+(responsible for the code to output the HTTP GET URL string), can do their work
+independently and have confidence that when integrated, their code will work together."
+
+
+
+The HTTP Get
+
+For example: http://server.url/endpoint/data1_data2_data3_data4
+
+The server located at /endpoint/ shall interpret the string concatenated behind
+'endpooint' and use it to update data values.

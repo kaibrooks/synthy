@@ -24679,6 +24679,7 @@ Source: http://www.onsemi.co.jp .. LM317M-D.PDF</description>
 <attribute name="MFR" value="Yageo"/>
 <attribute name="MPN" value="RC0805FR-0710KL"/>
 </part>
+<part name="GND25" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -25329,7 +25330,17 @@ Attribution ShareAlike (CC BY-SA)</text>
 <junction x="167.64" y="93.98"/>
 <pinref part="U4" gate="A" pin="REFSEL"/>
 <wire x1="166.37" y1="93.98" x2="167.64" y2="93.98" width="0.1524" layer="91"/>
-<wire x1="151.13" y1="93.98" x2="165.1" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="151.13" y1="93.98" x2="156.21" y2="93.98" width="0.1524" layer="91"/>
+<pinref part="U4" gate="A" pin="INC"/>
+<wire x1="156.21" y1="93.98" x2="161.29" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="161.29" y1="93.98" x2="165.1" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="151.13" y1="88.9" x2="156.21" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="156.21" y1="88.9" x2="156.21" y2="93.98" width="0.1524" layer="91"/>
+<junction x="156.21" y="93.98"/>
+<pinref part="U4" gate="A" pin="IND"/>
+<wire x1="151.13" y1="86.36" x2="161.29" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="161.29" y1="86.36" x2="161.29" y2="93.98" width="0.1524" layer="91"/>
+<junction x="161.29" y="93.98"/>
 </segment>
 <segment>
 <pinref part="C35" gate="G$1" pin="2"/>
@@ -26670,8 +26681,8 @@ Panel Mount</text>
 <attribute name="NAME" x="53.34" y="74.7014" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="53.34" y="71.882" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="GND23" gate="1" x="55.88" y="67.31" smashed="yes">
-<attribute name="VALUE" x="53.34" y="64.77" size="1.778" layer="96"/>
+<instance part="GND23" gate="1" x="55.88" y="64.77" smashed="yes">
+<attribute name="VALUE" x="53.34" y="62.23" size="1.778" layer="96"/>
 </instance>
 <instance part="C11" gate="G$1" x="63.5" y="92.71" smashed="yes">
 <attribute name="NAME" x="65.024" y="93.091" size="1.778" layer="95"/>
@@ -26946,6 +26957,9 @@ Panel Mount</text>
 <attribute name="NAME" x="261.62" y="49.7586" size="1.778" layer="95"/>
 <attribute name="VALUE" x="261.62" y="44.958" size="1.778" layer="96"/>
 </instance>
+<instance part="GND25" gate="1" x="232.41" y="87.63" smashed="yes">
+<attribute name="VALUE" x="229.87" y="85.09" size="1.778" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -27051,7 +27065,7 @@ Panel Mount</text>
 <segment>
 <pinref part="R30" gate="G$1" pin="1"/>
 <pinref part="GND23" gate="1" pin="GND"/>
-<wire x1="55.88" y1="68.58" x2="55.88" y2="69.85" width="0.1524" layer="91"/>
+<wire x1="55.88" y1="67.31" x2="55.88" y2="69.85" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="C31" gate="G$1" pin="1"/>
@@ -27165,6 +27179,12 @@ Panel Mount</text>
 <wire x1="29.21" y1="129.54" x2="31.75" y2="129.54" width="0.1524" layer="91"/>
 <wire x1="31.75" y1="129.54" x2="31.75" y2="151.13" width="0.1524" layer="91"/>
 <junction x="31.75" y="151.13"/>
+</segment>
+<segment>
+<pinref part="J5" gate="G$1" pin="EARTH-NORM"/>
+<wire x1="229.87" y1="92.71" x2="232.41" y2="92.71" width="0.1524" layer="91"/>
+<pinref part="GND25" gate="1" pin="GND"/>
+<wire x1="232.41" y1="90.17" x2="232.41" y2="92.71" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$1" class="0">
@@ -27487,12 +27507,6 @@ Panel Mount</text>
 <pinref part="S2" gate="A" pin="S"/>
 <wire x1="246.38" y1="96.52" x2="252.73" y2="96.52" width="0.1524" layer="91"/>
 <label x="254" y="96.52" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="N$47" class="0">
-<segment>
-<pinref part="J5" gate="G$1" pin="EARTH-NORM"/>
-<wire x1="229.87" y1="92.71" x2="232.41" y2="92.71" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="OUTPUT" class="0">

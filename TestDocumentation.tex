@@ -1,0 +1,151 @@
+% ECE 411
+% Almatouq, Brooks, Forsman, Roman
+% Fall 2019
+
+% Document settings ------------------------------------------------
+\documentclass[a4paper,12pt]{article}
+
+% Commands ------------------------------------------------
+\newcommand{\authorname}{Almatouq, Brooks, Forsman, Roman}
+\newcommand{\classnumber}{ECE 411 - Group 18}
+\newcommand{\projectname}{Project Theremizer - Test Plan - v1.0, 11/25/2019}
+
+\newcommand{\figOverlay}{\put(34,10){\color{black!50} \figWatermark}} % Figure overlay settings
+\newcommand{\figWatermark}{\small \authorname \; \today} 		% Figure overlay text
+\newcommand{\figHere}{\begin{overpic}[percent,scale=0.34]}	% Settings for all figures
+\newcommand{\figHereB}{\begin{overpic}[percent,scale=0.5]}	% A different setting
+
+% Packages ------------------------------------------------
+
+\usepackage[USenglish]{babel} 	% American English
+\usepackage{blindtext}			% Generate latin crap
+\usepackage[yyyymmdd]{datetime} % Sets date format to ISO 8601 standard
+\renewcommand{\dateseparator}{-}% Sets date format to ISO 8601 standard
+
+\usepackage{graphicx}			% Image importing and display
+\graphicspath{ {images/} }		% Path to image folder
+\usepackage{xcolor}				% Allows normal color words
+\usepackage{color, colortbl}
+
+\usepackage{float}				% Adds 'H' for figure placement location
+\usepackage{enumitem}			% Use for QandA environment
+\usepackage{booktabs}			% Merging columns in tables
+\usepackage{pdfpages}			% Add a PDF
+
+\usepackage[nostamp]{draftwatermark}	% use [nostamp] when finished, [firstpage] otherwise
+\SetWatermarkText{DRAFT}
+\SetWatermarkColor{red!50}
+\SetWatermarkScale{3}
+
+\usepackage{overpic}				% Puts text over figures
+\usepackage[american]{circuitikz}	% American-style circuit diagrams
+
+\usepackage{amsmath}				% Multi-line equations
+\usepackage{caption}				% Equation caption formatting
+\usepackage{physics}				% Easier derivatives
+\usepackage{gensymb}				% Enable \degree for degree symbol
+\usepackage{siunitx}				% SI units
+
+
+\usepackage{array}					% Used for centering tabular data
+\newcolumntype{M}[1]{>{\centering\arraybackslash}p{#1}} % The actual centered column format
+
+\usepackage{listings} %For code in appendix
+
+\definecolor{mymauve}{rgb}{0.58,0,0.82}
+\definecolor{mygreen}{rgb}{0,0.6,0}
+\definecolor{mygray}{rgb}{0.5,0.5,0.5}
+\definecolor{ltgray}{rgb}{0.937, 0.937, 0.956}	% Divide standard RGB values by 255 for some reason 
+
+% PSU colors
+\definecolor{PSUgreen}{RGB}{106,127,16}
+\definecolor{PSUltgreen}{RGB}{168,180,0}
+\definecolor{PSUblue}{RGB}{0,117,154}
+\definecolor{PSUltblue}{RGB}{161,216,224}
+\definecolor{PSUgray}{RGB}{71,67,52}
+\definecolor{PSUbrown}{RGB}{96,53,29}
+\definecolor{PSUsienna}{RGB}{163,63,31}
+\definecolor{PSUred}{RGB}{210,73,42}
+\definecolor{PSUorange}{RGB}{220,155,50}
+\definecolor{PSUyellow}{RGB}{230,220,143}
+\definecolor{PSUtan}{RGB}{232,221,162}
+\definecolor{PSUpurple}{RGB}{101,3,96}
+
+
+\newenvironment{QandA}
+	{\begin{enumerate}[label=\arabic*.]\sl} % Use slanted ques	tion text and Arabic numerals
+  {\end{enumerate}}
+\newenvironment{answered}{\par\normalfont}{} % Paragraph break and use normal font
+
+% fancy header / footer lines
+\usepackage{fancyhdr}% http://ctan.org/pkg/fancyhdr
+\pagestyle{fancy}% Change page style to fancy
+\fancyhf{}% Clear header/footer
+\fancyhead[L]{\textcolor{PSUgray}{\classnumber}}
+\fancyhead[R]{\textcolor{PSUgray}{\projectname}}
+\fancyfoot[L]{\textcolor{PSUgray}{\authorname}}
+\fancyfoot[R]{\textcolor{PSUgray}{\thepage}}
+\renewcommand{\headrulewidth}{0.4pt}% Default \headrulewidth is 0.4pt
+\renewcommand{\footrulewidth}{0.4pt}% Default \footrulewidth is 0pt
+
+
+% Title Page ------------------------------------------------
+\begin{document}
+\lstset { %Formatting for code in appendix
+  language=Matlab,
+  basicstyle=\footnotesize\ttfamily,
+  numbers=left,
+  stepnumber=1,
+  showstringspaces=false,
+  tabsize=1,
+  breaklines=true,
+  breakatwhitespace=false,
+  stringstyle=\color{mymauve},
+  keywordstyle=\color{blue},
+  commentstyle=\color{mygreen}, 
+}
+
+
+% Table of contents ------------------------------------------------
+% not today motherfucker
+%\newpage
+%\tableofcontents 
+
+
+% Begin paper ------------------------------------------------
+\newpage
+\pagenumbering{arabic}
+
+	\section*{References}
+    This test plan refers to the following documents:\\
+    
+    1) PDS.pdf, v1.0, 11/4/2019: The product design requirements specification for Team 18's 
+    Theremizer project.
+	\section*{Market Analysis}
+	\subsection*{Objectives}
+    Successful testing of Theremizer entails validation of correct PCB manufacture and circuit build,
+    functional characterization and test for all individual functional blocks as per the functional 
+    decomposition, correct functionality of integrated blocks, and verifying overall system performance 
+    to the specifications called for by design. 
+
+	\subsection*{Functional Characterization}
+    To verify each functional block, the following functional blocks must meet these parameters:\\
+    (itemize)
+    
+    
+	\subsection*{Performance Characterization}
+	TAM: 8 million globally \\
+	SAM: 180k musicians on the west coast \\ 
+	SOM: 20k local musicians in the Portland area \\
+	
+	Note: Musicians, especially touring or performing musicians may be interested in multiple devices chained together or in various configurations.
+	
+	\section*{Resources}
+	\subsection*{Functionality}
+	An antenna must modulate the frequency of an oscillator which is heterodyned with another to produce an audio output of at least one octave. The device must be capable of feeding its output to other audio processing blocks, or a separate audio amplifier. The device must have an enclosure that is self-stable. The device should accept and modulate an external signal, then mix against the theremin output. The device must use at least 1 sensor, 1 actuator, and 1 processor. 
+	\subsection*{Performance}
+		To make the device useful for musicians, it will have a user controlled filter with a minimum cutoff of at least \SI{5}{\kilo\hertz}. It will have a user controlled output up to at least \SI{1}{\volt} amplitude. The output and input impedance will be compatible with industry line-level standards and will have an impedance of less than \SI{600}{\ohm} and greater than \SI{10}{\kilo\ohm} respectively. 
+	\subsection*{Economic}
+	The device must be affordable to produce, with a total parts cost less than \$60. All parts must be available for volume purchase, in active production, or easily substitutable by a component in current production. 
+
+\end{document}

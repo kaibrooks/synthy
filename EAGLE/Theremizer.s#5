@@ -24680,7 +24680,6 @@ Source: http://www.onsemi.co.jp .. LM317M-D.PDF</description>
 <attribute name="MPN" value="RC0805FR-0710KL"/>
 </part>
 <part name="GND25" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="GND55" library="supply1" deviceset="GND" device=""/>
 <part name="GND58" library="supply1" deviceset="GND" device=""/>
 </parts>
 <sheets>
@@ -25104,9 +25103,6 @@ Attribution ShareAlike (CC BY-SA)</text>
 <attribute name="MFR" x="40.64" y="91.44" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="MPN" x="40.64" y="91.44" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
-<instance part="GND55" gate="1" x="160.02" y="78.74" smashed="yes">
-<attribute name="VALUE" x="157.48" y="76.2" size="1.778" layer="96"/>
-</instance>
 <instance part="GND58" gate="1" x="154.94" y="73.66" smashed="yes">
 <attribute name="VALUE" x="152.4" y="71.12" size="1.778" layer="96"/>
 </instance>
@@ -25340,7 +25336,13 @@ Attribution ShareAlike (CC BY-SA)</text>
 <wire x1="166.37" y1="93.98" x2="167.64" y2="93.98" width="0.1524" layer="91"/>
 <wire x1="151.13" y1="93.98" x2="156.21" y2="93.98" width="0.1524" layer="91"/>
 <wire x1="156.21" y1="93.98" x2="161.29" y2="93.98" width="0.1524" layer="91"/>
-<wire x1="161.29" y1="93.98" x2="165.1" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="161.29" y1="93.98" x2="162.56" y2="93.98" width="0.1524" layer="91"/>
+<pinref part="U4" gate="A" pin="IND"/>
+<wire x1="162.56" y1="93.98" x2="165.1" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="151.13" y1="86.36" x2="160.02" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="160.02" y1="86.36" x2="162.56" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="162.56" y1="86.36" x2="162.56" y2="93.98" width="0.1524" layer="91"/>
+<junction x="162.56" y="93.98"/>
 </segment>
 <segment>
 <pinref part="C35" gate="G$1" pin="2"/>
@@ -25368,12 +25370,6 @@ Attribution ShareAlike (CC BY-SA)</text>
 <wire x1="276.86" y1="238.76" x2="276.86" y2="237.49" width="0.1524" layer="91"/>
 <wire x1="276.86" y1="237.49" x2="259.08" y2="237.49" width="0.1524" layer="91"/>
 <junction x="259.08" y="237.49"/>
-</segment>
-<segment>
-<pinref part="U4" gate="A" pin="IND"/>
-<pinref part="GND55" gate="1" pin="GND"/>
-<wire x1="151.13" y1="86.36" x2="160.02" y2="86.36" width="0.1524" layer="91"/>
-<wire x1="160.02" y1="86.36" x2="160.02" y2="81.28" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U4" gate="A" pin="INC"/>
@@ -27735,7 +27731,92 @@ Panel Mount</text>
 </sheet>
 </sheets>
 <errors>
+<approved hash="104,1,232.41,213.36,U3,+VIN,N$54,,,"/>
+<approved hash="104,3,127,45.72,IC2P,V+,+9V,,,"/>
+<approved hash="104,3,127,30.48,IC2P,V-,GND,,,"/>
+<approved hash="104,1,80.01,101.6,U4,VCC,+5V,,,"/>
+<approved hash="104,1,80.01,83.82,U4,GND_2,GND,,,"/>
+<approved hash="104,2,22.86,140.97,IC3P,V+,+15V,,,"/>
+<approved hash="104,2,22.86,125.73,IC3P,V-,-15V,,,"/>
+<approved hash="104,3,101.6,44.45,IC4P,V+,+9V,,,"/>
+<approved hash="104,3,101.6,29.21,IC4P,V-,GND,,,"/>
+<approved hash="104,3,184.15,152.4,U5,VCC,+9V,,,"/>
+<approved hash="208,1,351.79,102.87,GND,sup,,,,"/>
+<approved hash="208,1,222.25,102.87,GND,sup,,,,"/>
+<approved hash="208,1,351.79,198.12,GND,sup,,,,"/>
+<approved hash="208,1,336.55,198.12,GND,sup,,,,"/>
+<approved hash="208,1,298.45,198.12,GND,sup,,,,"/>
+<approved hash="208,1,396.24,214.63,GND,sup,,,,"/>
+<approved hash="208,1,316.23,198.12,GND,sup,,,,"/>
+<approved hash="208,1,217.17,76.2,GND,sup,,,,"/>
+<approved hash="208,1,340.36,130.81,GND,sup,,,,"/>
+<approved hash="208,1,209.55,198.12,GND,sup,,,,"/>
+<approved hash="208,1,195.58,133.35,GND,sup,,,,"/>
+<approved hash="208,1,207.01,76.2,GND,sup,,,,"/>
+<approved hash="208,1,179.07,107.95,GND,sup,,,,"/>
+<approved hash="208,1,384.81,67.31,GND,sup,,,,"/>
+<approved hash="208,1,207.01,153.67,GND,sup,,,,"/>
+<approved hash="208,1,220.98,133.35,GND,sup,,,,"/>
+<approved hash="208,1,67.31,68.58,GND,sup,,,,"/>
+<approved hash="208,1,167.64,88.9,GND,sup,,,,"/>
+<approved hash="208,1,59.69,93.98,GND,sup,,,,"/>
+<approved hash="208,1,12.7,67.31,GND,sup,,,,"/>
+<approved hash="208,1,40.64,67.31,GND,sup,,,,"/>
+<approved hash="208,1,259.08,234.95,GND,sup,,,,"/>
+<approved hash="208,1,154.94,76.2,GND,sup,,,,"/>
+<approved hash="208,2,93.98,124.46,GND,sup,,,,"/>
+<approved hash="208,2,185.42,132.08,GND,sup,,,,"/>
+<approved hash="208,2,160.02,85.09,GND,sup,,,,"/>
+<approved hash="208,2,54.61,170.18,GND,sup,,,,"/>
+<approved hash="208,2,224.79,106.68,GND,sup,,,,"/>
+<approved hash="208,2,251.46,100.33,GND,sup,,,,"/>
+<approved hash="208,2,38.1,107.95,GND,sup,,,,"/>
+<approved hash="208,2,38.1,133.35,GND,sup,,,,"/>
+<approved hash="208,2,184.15,96.52,GND,sup,,,,"/>
+<approved hash="208,2,191.77,172.72,GND,sup,,,,"/>
+<approved hash="208,2,30.48,20.32,GND,sup,,,,"/>
+<approved hash="208,2,77.47,20.32,GND,sup,,,,"/>
+<approved hash="208,3,53.34,29.21,GND,sup,,,,"/>
+<approved hash="208,3,39.37,121.92,GND,sup,,,,"/>
+<approved hash="208,3,96.52,129.54,GND,sup,,,,"/>
+<approved hash="208,3,111.76,129.54,GND,sup,,,,"/>
+<approved hash="208,3,52.07,129.54,GND,sup,,,,"/>
+<approved hash="208,3,88.9,186.69,GND,sup,,,,"/>
+<approved hash="208,3,38.1,25.4,GND,sup,,,,"/>
+<approved hash="208,3,55.88,67.31,GND,sup,,,,"/>
+<approved hash="208,3,148.59,55.88,GND,sup,,,,"/>
+<approved hash="208,3,176.53,55.88,GND,sup,,,,"/>
+<approved hash="208,3,20.32,45.72,GND,sup,,,,"/>
+<approved hash="208,3,101.6,27.94,GND,sup,,,,"/>
+<approved hash="208,3,127,27.94,GND,sup,,,,"/>
+<approved hash="208,3,177.8,132.08,GND,sup,,,,"/>
+<approved hash="208,3,227.33,125.73,GND,sup,,,,"/>
 <approved hash="208,3,219.71,147.32,GND,out,,,,"/>
+<approved hash="208,3,269.24,67.31,GND,sup,,,,"/>
+<approved hash="208,3,171.45,175.26,GND,sup,,,,"/>
+<approved hash="208,3,208.28,176.53,GND,sup,,,,"/>
+<approved hash="208,3,72.39,38.1,GND,sup,,,,"/>
+<approved hash="208,3,271.78,45.72,GND,sup,,,,"/>
+<approved hash="208,3,29.21,129.54,GND,sup,,,,"/>
+<approved hash="208,3,232.41,90.17,GND,sup,,,,"/>
+<approved hash="113,2,139.596,107.846,FRAME1,,,,,"/>
+<approved hash="113,3,139.596,107.846,FRAME3,,,,,"/>
+<approved hash="113,3,257.768,48.26,LD1,,,,,"/>
+<approved hash="113,3,68.5825,60.6806,PAD1,,,,,"/>
+<approved hash="113,3,65.2263,49.4817,PAD2,,,,,"/>
+<approved hash="113,3,68.5715,51.2826,JP1,,,,,"/>
+<approved hash="113,3,77.47,52.7473,JP2,,,,,"/>
+<approved hash="113,3,76.7283,49.4817,PAD3,,,,,"/>
+<approved hash="113,3,68.8746,157.809,JP3,,,,,"/>
+<approved hash="113,3,146.345,141.299,JP4,,,,,"/>
+<approved hash="113,3,110.49,87.0373,JP5,,,,,"/>
+<approved hash="113,3,93.98,62.9073,JP6,,,,,"/>
+<approved hash="113,3,149.582,84.3026,JP7,,,,,"/>
+<approved hash="113,3,186.985,124.789,JP8,,,,,"/>
+<approved hash="113,3,240.325,153.999,JP9,,,,,"/>
+<approved hash="113,1,269.535,215.668,JP10,,,,,"/>
+<approved hash="113,1,271.485,208.61,JP11,,,,,"/>
+<approved hash="113,1,349.482,230.165,JP12,,,,,"/>
 </errors>
 </schematic>
 </drawing>

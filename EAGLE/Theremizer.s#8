@@ -25330,7 +25330,17 @@ Attribution ShareAlike (CC BY-SA)</text>
 <junction x="167.64" y="93.98"/>
 <pinref part="U4" gate="A" pin="REFSEL"/>
 <wire x1="166.37" y1="93.98" x2="167.64" y2="93.98" width="0.1524" layer="91"/>
-<wire x1="151.13" y1="93.98" x2="165.1" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="151.13" y1="93.98" x2="156.21" y2="93.98" width="0.1524" layer="91"/>
+<pinref part="U4" gate="A" pin="INC"/>
+<wire x1="156.21" y1="93.98" x2="161.29" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="161.29" y1="93.98" x2="165.1" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="151.13" y1="88.9" x2="156.21" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="156.21" y1="88.9" x2="156.21" y2="93.98" width="0.1524" layer="91"/>
+<junction x="156.21" y="93.98"/>
+<pinref part="U4" gate="A" pin="IND"/>
+<wire x1="151.13" y1="86.36" x2="161.29" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="161.29" y1="86.36" x2="161.29" y2="93.98" width="0.1524" layer="91"/>
+<junction x="161.29" y="93.98"/>
 </segment>
 <segment>
 <pinref part="C35" gate="G$1" pin="2"/>

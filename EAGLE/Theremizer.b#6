@@ -8704,10 +8704,6 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <contactref element="U4" pad="10"/>
 <via x="40.386" y="68.326" extent="1-16" drill="0.254"/>
 <via x="40.259" y="65.786" extent="1-16" drill="0.254"/>
-<wire x1="50.8" y1="45.4" x2="44.45" y2="46.99" width="0" layer="19" extent="1-1"/>
-<wire x1="41.91" y1="30.48" x2="40.64" y2="25.4" width="0" layer="19" extent="1-1"/>
-<wire x1="35.56" y1="46.99" x2="44.45" y2="46.99" width="0" layer="19" extent="1-1"/>
-<wire x1="20.32" y1="35.56" x2="19.05" y2="26.67" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="!RESET">
 <contactref element="R1" pad="1"/>
